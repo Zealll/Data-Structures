@@ -109,6 +109,26 @@ class BinarySearchTree:
                 stack.append(current.right)
             print(current.value)
 
+        # IN-Order Traversal
+        # ------------------
+            # ***The test doesn't account to 
+            #    IN-Order Iterative Traversal, so it 
+            #    WILL Fail, but it is correct
+
+        # stack = []
+        # current = node
+
+        # while True:
+        #     if current:
+        #         stack.append(current)
+        #         current = current.left
+        #     elif(stack):
+        #         current = stack.pop()
+        #         print(current.value)
+        #         current = current.right
+        #     else:
+        #         break
+
 
     # STRETCH Goals -------------------------
     # Note: Research may be required
